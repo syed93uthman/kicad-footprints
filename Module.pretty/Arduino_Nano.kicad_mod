@@ -1,4 +1,4 @@
-(module Arduino_Nano (layer F.Cu) (tedit 58ACAF70)
+(module Arduino_Nano (layer F.Cu) (tedit 5E0FA257)
   (descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
   (tags "Arduino Nano")
   (fp_text reference REF** (at 7.62 -5.08) (layer F.SilkS)
@@ -36,6 +36,9 @@
   (fp_line (start -1.53 -4.06) (end -1.53 42.16) (layer F.CrtYd) (width 0.05))
   (fp_line (start 16.75 42.16) (end 16.75 -4.06) (layer F.CrtYd) (width 0.05))
   (fp_line (start 16.75 42.16) (end -1.53 42.16) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 3.81 39.37) (end 3.81 31.75) (layer F.SilkS) (width 0.12))
+  (fp_line (start 3.81 31.75) (end 11.43 31.75) (layer F.SilkS) (width 0.12))
+  (fp_line (start 11.43 31.75) (end 11.43 39.37) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 17 thru_hole oval (at 15.24 33.02) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
@@ -66,9 +69,9 @@
   (pad 30 thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 15 thru_hole oval (at 0 35.56) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 16 thru_hole oval (at 15.24 35.56) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Module.3dshapes/Arduino_Nano_WithMountingHoles.wrl
-    (at (xyz 0 0 0))
+  (model "${KISYS3DMOD}/Module.3dshapes/Arduino Nano V3.step"
+    (offset (xyz -1.5 4 11))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 0 90))
   )
 )
