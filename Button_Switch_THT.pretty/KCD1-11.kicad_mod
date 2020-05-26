@@ -1,4 +1,4 @@
-(module KCD1-11 (layer F.Cu) (tedit 5E100242)
+(module KCD1-11 (layer F.Cu) (tedit 5E108E78)
   (fp_text reference REF** (at 10.16 -4.445) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -12,4 +12,9 @@
   (pad 1 thru_hole oval (at 0 0) (size 2 5.6) (drill oval 0.762 4.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 5 0) (size 2 5.6) (drill oval 0.762 4.2) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 10 0) (size 2 5.6) (drill oval 0.762 4.2) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/KCD1-11.stp
+    (offset (xyz 4 0 10))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
