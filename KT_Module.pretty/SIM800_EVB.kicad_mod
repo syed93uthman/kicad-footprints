@@ -1,4 +1,4 @@
-(module SIM800_EVB (layer F.Cu) (tedit 5F33AB5F)
+(module SIM800_EVB (layer F.Cu) (tedit 5F6C7444)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -34,9 +34,9 @@
   (pad 4 thru_hole oval (at 38.354 15.5575) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 38.354 20.6375) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 7 thru_hole oval (at 38.354 23.1775) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 2.54 2.54) (size 4.5 4.5) (drill 4) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 37.46 2.54) (size 4.5 4.5) (drill 4) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 2.54 24.46) (size 4.5 4.5) (drill 4) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2.54 2.54) (size 3.5 3.5) (drill 3) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 37.46 2.54) (size 3.5 3.5) (drill 3) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2.54 24.46) (size 3.5 3.5) (drill 3) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/KTModule.3dshapes/SIM800_EVB.step
     (offset (xyz 0 0 3))
     (scale (xyz 1 1 1))
